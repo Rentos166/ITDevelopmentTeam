@@ -46,7 +46,7 @@
             this.buttonOpenClients.BackColor = System.Drawing.Color.RoyalBlue;
             this.buttonOpenClients.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonOpenClients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenClients.Font = new System.Drawing.Font("Roboto Black", 14F, System.Drawing.FontStyle.Bold);
+            this.buttonOpenClients.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpenClients.ForeColor = System.Drawing.Color.White;
             this.buttonOpenClients.Location = new System.Drawing.Point(12, 119);
             this.buttonOpenClients.Name = "buttonOpenClients";
