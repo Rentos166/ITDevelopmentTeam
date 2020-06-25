@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6959ed00dfd74631bd61c0eba9f40a4e" Name="Diagram1">
+        <EntityTypeShape EntityType="ITDevelopmentModel.AttedenceSet" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITDevelopmentModel.ClientSet" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITDevelopmentModel.CustomSet" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITDevelopmentModel.Departament" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITDevelopmentModel.FinanceSet" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITDevelopmentModel.PersonalSet" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITDevelopmentModel.SeminarsSet" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITDevelopmentModel.Users" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="ITDevelopmentModel.FK_AttedenceSet_AttedenceSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ITDevelopmentModel.FK_CustomSet_AttedenceSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ITDevelopmentModel.FK_CustomSet_ClientSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ITDevelopmentModel.FK_CustomSet_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="ITDevelopmentModel.FK_Departament_PersonalSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ITDevelopmentModel.FK_PersonalSet_PersonalSet" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
