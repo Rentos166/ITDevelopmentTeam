@@ -46,6 +46,7 @@
             // 
             this.labelCreate.AutoSize = true;
             this.labelCreate.Font = new System.Drawing.Font("Roboto Black", 14F, System.Drawing.FontStyle.Bold);
+            this.labelCreate.ForeColor = System.Drawing.Color.SteelBlue;
             this.labelCreate.Location = new System.Drawing.Point(10, 88);
             this.labelCreate.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.labelCreate.Name = "labelCreate";
@@ -174,7 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(329, 451);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.label2);
